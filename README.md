@@ -29,7 +29,7 @@ These datasets contain reviews about businesses from Google Local (Google Maps).
 ### Examples
 
 #### Review
-```json
+```python
 {
   'rating': 3.0,
   'reviewerName': u'an lam',
@@ -43,7 +43,7 @@ These datasets contain reviews about businesses from Google Local (Google Maps).
 ```
 
 #### Bussines
-```json
+```python
 {
   'name': u'Diamond Valley Lake Marina',
   'price': None,
@@ -53,12 +53,26 @@ These datasets contain reviews about businesses from Google Local (Google Maps).
   'closed': False,
   'gPlusPlaceId': '104699454385822125632',
   'gps': [33.703804, -117.003209]
+}
+```
+### Users
+
+```python
+{
+    "userName": "Ricardo Canchanya Nu\xf1ez",
+    "jobs": None,
+    "currentPlace": ["Huancayo", [[], -120666670, -752166670, 1]],
+    "previousPlaces": [["Lima", [[], -120433330, -770283330, 1]]],
+    "education": [[[], [], [], [], [], 6], []],
+    "gPlusUserId": "100001053988784484111",
+}
+
 ```
 
 ### Citation
 
 * Translation-based factorization machines for sequential recommendation, Rajiv Pasricha, Julian McAuley, RecSys, 2018
-* [pdf](https://cseweb.ucsd.edu/~jmcauley/pdfs/recsys18a.pdf)
+  * [pdf](https://cseweb.ucsd.edu/~jmcauley/pdfs/recsys18a.pdf)
 
 * Translation-based recommendation, Ruining He, Wang-Cheng Kang, Julian McAuley, RecSys, 2017
-* [pdf](https://cseweb.ucsd.edu/~jmcauley/pdfs/recsys17.pdf)
+  * [pdf](https://cseweb.ucsd.edu/~jmcauley/pdfs/recsys17.pdf)
