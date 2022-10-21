@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "places-recommender"
+version = "0.1.0"
+description = ""
+authors = ["diefergil <diegofg293@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">3.9"
+pandas = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+ipykernel = "^6.16.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
